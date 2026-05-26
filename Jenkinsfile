@@ -16,7 +16,7 @@ pipeline{
     }
     stage('Creating Docker Container'){
       steps{
-        sh 'docker run -d -p 3005:3005 front_file'
+        sh 'docker run -d -p 4200:4200 front_file'
       }
     }
   }
